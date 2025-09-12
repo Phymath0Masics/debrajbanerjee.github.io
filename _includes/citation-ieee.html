@@ -1,0 +1,18 @@
+{% comment %}
+Renders a single publication in IEEE style with numeric label and title hyperlink only.
+Usage: {% include citation-ieee.html post=post index=forloop.index %}
+Fields used: authors (or from citation), date, title, venue, paperurl, url
+{% endcomment %}
+{% assign p = include.post | default: post %}
+{% assign idx = include.index %}
+<li class="citation">
+  [{{ idx }}]
+  {%- if p.authors -%}
+    {{ p.authors }},
+  {%- elsif p.citation -%}
+    {{ p.citation | split: ". " | first }},
+  {%- endif -%}
+  "{% if p.paperurl %}<a href="{{ p.paperurl }}" target="_blank" rel="noopener">{{ p.title }}</a>{% else %}<a href="{{ p.url | relative_url }}">{{ p.title }}</a>{% endif %}",
+  {%- if p.venue -%} {{ p.venue }},{% endif -%}
+  {%- if p.date -%} {{ p.date | date: "%Y" }}.{% endif -%}
+</li>

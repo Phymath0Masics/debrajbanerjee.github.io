@@ -1,0 +1,34 @@
+/* Custom site overrides */
+
+html, body {
+  font-family: "Merriweather", serif;
+  line-height: 1.65;
+  font-weight: 400;
+  letter-spacing: 0.005em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Merriweather", serif;
+  line-height: 1.3;
+  font-weight: 700;
+}
+
+.page__lead, .page__title, .post-title {
+  font-weight: 700;
+}
+
+.btn {
+  font-weight: 400;
+}
+
+.page, .page__content, .archive, .site-footer, .site-nav, .author__content, .author__urls, .author__urls li, .btn,
+.post, .post-title, .post-content, .page__title, .page__lead, .page__meta, .masthead__menu, .nav__list, .nav__list a {
+  font-family: "Merriweather", serif;
+}
+
+/* Publications list: remove bullets and left indent */
+.pubs-list {
+  list-style: none;
+  padding-left: 0;
+  margin-left: 0;
+}

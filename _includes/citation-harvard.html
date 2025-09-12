@@ -1,0 +1,23 @@
+{% comment %}
+Renders a single publication as a Harvard-style citation.
+Usage: {% include citation-harvard.html post=post %}
+Fields used: citation (preferred), authors, date, title, venue, paperurl, url
+{% endcomment %}
+{% assign p = include.post | default: post %}
+{% capture cite_text %}
+  {% if p.citation %}
+    {{ p.citation }}
+  {% else %}
+    {%- if p.authors -%}{{ p.authors }}. {%- endif -%}
+    {%- if p.date -%}{{ p.date | date: "%Y" }}. {%- endif -%}
+    {%- if p.title -%}{{ p.title }}. {%- endif -%}
+    {%- if p.venue -%}{{ p.venue }}.{%- endif -%}
+  {% endif %}
+{% endcapture %}
+<li class="citation">
+  {% if p.paperurl %}
+    <a href="{{ p.paperurl }}" target="_blank" rel="noopener">{{ cite_text | strip }}</a>
+  {% else %}
+    <a href="{{ p.url | relative_url }}">{{ cite_text | strip }}</a>
+  {% endif %}
+</li>
