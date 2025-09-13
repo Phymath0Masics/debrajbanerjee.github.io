@@ -11,7 +11,7 @@ redirect_from:
 
 Summary
 ======
-I aim to pursue a highly challenging career where I can contribute the best of my skills and efforts. My goal is to learn more, work hard, improve my skills, and contribute something fundamental to the field of AI & ML.
+I aim to build a career at the intersection of optimization, computational physics, and AI, focusing on mathematical modeling, large-scale algorithms, and efficient methods that advance both theory and applications.
 
 Education
 ======
