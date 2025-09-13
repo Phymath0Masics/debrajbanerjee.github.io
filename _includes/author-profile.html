@@ -7,15 +7,22 @@
 <div itemscope itemtype="http://schema.org/Person">
 
   <div class="author__avatar">
-  {% if author.avatar contains "://" %}
-  	<img src="{{ author.avatar }}" alt="{{ author.name }}"  fetchpriority="high" />
-  {% elsif author.avatar contains "/" %}
-    <!-- If a path (absolute or relative) is provided, use it as-is -->
-    <img src="{{ author.avatar }}" class="author__avatar" alt="{{ author.name }}"  fetchpriority="high" />
-  {% else %}
-  	<img src="{{ author.avatar | prepend: "/images/" | prepend: base_path }}" class="author__avatar" alt="{{ author.name }}"  fetchpriority="high" />
-  {% endif %}
-  </div>
+    {% comment %}
+      Build a robust avatar URL:
+      - If full URL (contains "://"), use as-is
+      - If it contains a slash (e.g., "/images/foo.jpg"), prefix with base_path so project baseurl is respected
+      - Else treat as filename under /images/
+    {% endcomment %}
+    {% assign _avatar_src = author.avatar %}
+    {% if _avatar_src contains "://" %}
+      {% assign _avatar_url = _avatar_src %}
+    {% elsif _avatar_src contains "/" %}
+      {% assign _avatar_url = _avatar_src | prepend: base_path %}
+    {% else %}
+      {% assign _avatar_url = _avatar_src | prepend: "/images/" | prepend: base_path %}
+    {% endif %}
+    <img src="{{ _avatar_url }}" class="author__avatar" alt="{{ author.name }}" fetchpriority="high" />
+    </div>
 
   <div class="author__content">
     <h3 class="author__name">{{ author.name }}</h3>
