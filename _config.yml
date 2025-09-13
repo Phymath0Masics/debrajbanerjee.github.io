@@ -23,7 +23,7 @@ repository               : "Phymath0Masics/debrajbanerjee.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "/images/my_dp.jpeg"
+  avatar           : "my_dp.jpeg"
   name             : "Debraj Banerjee"
   pronouns         :  
   bio              : "AI & ML | PhD Electrical Engineering @ IISc"
