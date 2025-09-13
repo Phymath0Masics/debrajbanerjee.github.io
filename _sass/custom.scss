@@ -32,3 +32,32 @@ h1, h2, h3, h4, h5, h6 {
   padding-left: 0;
   margin-left: 0;
 }
+
+/* Sidebar readability & overflow fixes */
+.sidebar {
+  /* Give a bit more room on larger screens */
+  @media screen and (min-width: 1024px) {
+    max-width: 320px !important; /* default was ~250px in theme */
+    padding-right: 8px; /* avoid clipping against edge */
+  }
+}
+
+/* Allow wrapping of long labels/links in the left sidebar */
+.sidebar .author__urls li,
+.sidebar .author__urls a {
+  white-space: normal;
+}
+
+/* Break long words/URLs if needed to prevent overflow */
+.sidebar .author__urls,
+.sidebar .author__content,
+.sidebar .author__urls a {
+  overflow-wrap: anywhere;
+  word-break: break-word;
+  hyphens: auto;
+}
+
+/* Improve line height in author content to prevent visual clipping */
+.sidebar .author__content {
+  line-height: 1.35;
+}
