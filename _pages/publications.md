@@ -7,6 +7,8 @@ author_profile: true
 
 A consolidated list of publications.
 
+[4] [Linear Order Graph Sparsification for MCMC and Mean-Field Annealing](https://ieeexplore.ieee.org/abstract/document/11459278) — Banerjee, D.; Mahapatra, S.; Chaudhury, K. N., HiPCW (2025 IEEE 32nd International Conference on High Performance Computing, Data and Analytics Workshop), 2025.
+
 [3] [A Continuous Energy Ising Machine Leveraging Difference-of-Convex Programming](https://arxiv.org/abs/2509.01928) — Banerjee, D.; Mahapatra, S.; Chaudhury, K. N., arXiv, 2025.
 
 [2] [On the Schur Stability of Some Image Reconstruction Operators](https://arxiv.org/abs/2509.06715) — Banerjee, D.; Chaudhury, K. N., arXiv, 2025.
