@@ -2,7 +2,7 @@
 title: "Linear Order Graph Sparsification for MCMC and Mean-Field Annealing"
 collection: publications
 category: manuscripts
-permalink: /publication/ising-machine-dc
+permalink: /publication/2025-17-12-linear-order-graph-sparsification
 date: 2025-17-12
 venue: '2025 IEEE 32nd International Conference on High Performance Computing, Data and Analytics Workshop (HiPCW)'
 paperurl: 'https://ieeexplore.ieee.org/abstract/document/11459278'
