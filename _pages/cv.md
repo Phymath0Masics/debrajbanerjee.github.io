@@ -41,6 +41,8 @@ Certifications
 
 Publications
 ======
+* Local-Minima-Preserving Polynomial Relaxation of Ising Problems — Debraj Banerjee, Santanu Mahapatra, Kunal Narayan Chaudhury. [ICML](https://icml.cc/virtual/2026/papers.html?search=Local-Minima-Preserving+Polynomial+Relaxation+of+Ising+Problems)
+* Linear Order Graph Sparsification for MCMC and Mean-Field Annealing — Debraj Banerjee, Santanu Mahapatra, Kunal Narayan Chaudhury. [IEEE](https://ieeexplore.ieee.org/abstract/document/11459278)
 * A Continuous Energy Ising Machine Leveraging Difference-of-Convex Programming — Debraj Banerjee, Santanu Mahapatra, Kunal Narayan Chaudhury. [arXiv](https://arxiv.org/abs/2509.01928)
 * On the Schur Stability of Some Image Reconstruction Operators — Debraj Banerjee, Kunal Narayan Chaudhury. [arXiv](https://arxiv.org/abs/2509.06715)
 * A James-Stein Estimator based Generalized OMP Algorithm for Robust Signal Recovery using Sparse Representation — Debraj Banerjee, Amitava Chatterjee. [arXiv](https://arxiv.org/abs/2509.01410)
