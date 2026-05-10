@@ -7,6 +7,8 @@ author_profile: true
 
 A consolidated list of publications.
 
+[5] [Local-Minima-Preserving Polynomial Relaxation of Ising Problems](https://icml.cc/virtual/2026/papers.html?search=Local-Minima-Preserving+Polynomial+Relaxation+of+Ising+Problems) — Banerjee, D.; Mahapatra, S.; Chaudhury, K. N., *Forty-Third International Conference on Machine Learning (ICML)*, 2026.
+
 [4] [Linear Order Graph Sparsification for MCMC and Mean-Field Annealing](https://ieeexplore.ieee.org/abstract/document/11459278) — Banerjee, D.; Mahapatra, S.; Chaudhury, K. N., HiPCW (2025 IEEE 32nd International Conference on High Performance Computing, Data and Analytics Workshop), 2025.
 
 [3] [A Continuous Energy Ising Machine Leveraging Difference-of-Convex Programming](https://arxiv.org/abs/2509.01928) — Banerjee, D.; Mahapatra, S.; Chaudhury, K. N., arXiv, 2025.
