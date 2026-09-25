@@ -7,6 +7,8 @@ author_profile: true
 
 A consolidated list of publications.
 
+[6] [Certified Single-Level Reformulation for Tri-Level Cyber-Physical Grid Security](/publication/certified-single-level-reformulation-cyber-physical-grid-security) — Banerjee, D.; Gurrala, G.; Chaudhury, K. N., *The Fortieth Annual Conference on Neural Information Processing Systems (NeurIPS 2026), accepted as a regular poster*, 2026.
+
 [5] [Local-Minima-Preserving Polynomial Relaxation of Ising Problems](https://icml.cc/virtual/2026/papers.html?search=Local-Minima-Preserving+Polynomial+Relaxation+of+Ising+Problems) — Banerjee, D.; Mahapatra, S.; Chaudhury, K. N., *ICML (43rd International Conference on Machine Learning)*, 2026.
 
 [4] [Linear Order Graph Sparsification for MCMC and Mean-Field Annealing](https://ieeexplore.ieee.org/abstract/document/11459278) — Banerjee, D.; Mahapatra, S.; Chaudhury, K. N., *HiPCW (IEEE 32nd International Conference on High Performance Computing, Data and Analytics Workshop)*, 2025.
